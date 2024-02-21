@@ -1,0 +1,45 @@
+.con{
+    text-align: center;
+}
+.header{
+    background-color: rgba(116, 62, 204, 0.56);
+    padding: 25px;
+    color: white;
+}
+.header>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: none;
+}
+.subHead>p{
+color: gray;
+}
+.displaydata{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10px ;
+    
+    padding: 25px;
+ 
+
+}
+
+.displaydata>div{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    text-align: left;
+
+}
+.displaydata>div>img{
+    width: 300px;
+}
+.displaydata>div>button{
+    background-color: none;
+    padding: 3px;
+    width: 50px;
+ 
+
+}
