@@ -3,12 +3,8 @@ import "./SinglePage.css"
 import data from "../db.json"
 import axios from 'axios';
 const SinglePage = () => {
-    const [fetchData,setfetchData]=useState(data)
-console.log(data)
-useEffect(()=>{
-setfetchData()
+   
 
-},[])
 
 
   return (
@@ -30,12 +26,16 @@ setfetchData()
                     <div key={e.ID}>
                         <img src="https://img.freepik.com/free-photo/cardboard-box-isolated_125540-652.jpg" alt="" />
                         <h3>{e.Name}</h3>
-                        <p>{e.ShortDesc}</p>
+                        <p >{e.ShortDesc}</p>
                         <button>View</button>
                     </div>
                 ))
             }
 
+        </div>
+        <div class="bottom">
+            <p>Copywrite @ 2021. All Rights Reserved</p>
+            <p>Back to Top</p>
         </div>
     </div>
         

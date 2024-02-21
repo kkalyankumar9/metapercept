@@ -43,3 +43,14 @@ color: gray;
  
 
 }
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.bottom>:nth-child(1){
+    color: gray;
+}
+.bottom>:nth-child(2){
+    color: rgb(81, 8, 216);
+}
