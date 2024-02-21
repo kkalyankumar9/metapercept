@@ -5,6 +5,8 @@
     background-color: rgba(116, 62, 204, 0.56);
     padding: 25px;
     color: white;
+    text-align: center;
+ 
 }
 .header>button{
     width: 100px;
@@ -12,9 +14,11 @@
     border-radius: 5px;
     background-color: none;
 }
+
 .subHead>p{
 color: gray;
 }
+
 .displaydata{
     display: flex;
     flex-wrap: wrap;
